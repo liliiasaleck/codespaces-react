@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import SportsSelection from '../../components/SportsSelection';
-import HeightInput from '../../components/HeightInput';
-import WeightInput from '../../components/WeightInput';
-import BMIResult from '../../components/BMIResult';
-import StepIndicator from '../../components/StepIndicator';
+import SportsSelection from './components/SportsSelection';
+import HeightInput from './components/HeightInput';
+import WeightInput from './components/WeightInput';
+import BMIResult from './components/BMIResult';
+import StepIndicator from './components/StepIndicator';
 import { useOnboarding } from './useOnboarding';
 
 const Onboarding = () => {

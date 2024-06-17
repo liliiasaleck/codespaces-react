@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { calculateBMI, getBMICategory } from './helper';
+import Header from '../../../../components/Header';
 
 interface BMIResultProps {
   height: number;
@@ -20,7 +21,7 @@ const BMIResult = ({ height, weight }: BMIResultProps) => {
 
   return (
     <div className="p-4 text-white">
-      <h2 className="text-2xl font-bold mb-4">Your BMI is {bmi}</h2>
+       <Header text={`Your BMI is ${bmi}`} />
     </div>
   );
 };

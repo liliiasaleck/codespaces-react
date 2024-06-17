@@ -1,8 +1,8 @@
-import CardioIcon from '../../assets/icons/cardio.png';
-import FlexibilityIcon from '../../assets/icons/flexibility.png';
-import GameSportsIcon from '../../assets/icons/gameSports.png';
-import MartialArtsIcon from '../../assets/icons/martialArts.png';
-import RaceTrainingIcon from '../../assets/icons/raceTraining.png';
+import CardioIcon from '../../../../assets/icons/cardio.png';
+import FlexibilityIcon from '../../../../assets/icons/flexibility.png';
+import GameSportsIcon from '../../../../assets/icons/gameSports.png';
+import MartialArtsIcon from '../../../../assets/icons/martialArts.png';
+import RaceTrainingIcon from '../../../../assets/icons/raceTraining.png';
 
 export const sportsOptions = [
     { name: 'Cardio', icon: CardioIcon, description: 'Running, Rowing, Cycling' },

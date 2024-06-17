@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { sportsOptions } from './const';
+import Button from '../../../../components/Button';
+import Header from '../../../../components/Header';
 
 interface SportsSelectionProps {
   onContinue: (selectedSports: string[]) => void;
@@ -16,7 +18,7 @@ const SportsSelection = ({ onContinue }: SportsSelectionProps) => {
 
   return (
     <div className="p-4 min-h-screen text-white">
-      <h2 className="text-2xl font-bold mb-4">What sports do you like</h2>
+      <Header text="What sports do you like" />
       <div className="flex flex-col gap-4">
         {sportsOptions.map((sport) => (
           <button
@@ -39,15 +41,13 @@ const SportsSelection = ({ onContinue }: SportsSelectionProps) => {
           </button>
         ))}
       </div>
-      <button
-        className={`mt-6 px-4 py-4 font-semibold rounded-lg w-full text-center transition ${
-          selectedSports.length > 0 ? 'bg-button text-white' : 'bg-gray-400 text-gray-600'
-        }`}
+      <Button
         onClick={() => onContinue(selectedSports)}
         disabled={selectedSports.length === 0}
-      >
-        Continue
-      </button>
+        className={`${
+          selectedSports.length > 0 ? 'bg-button text-white' : 'bg-gray-400 text-gray-600'
+        }`}
+      />
     </div>
   );
 };

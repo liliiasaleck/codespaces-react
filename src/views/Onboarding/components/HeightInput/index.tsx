@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Header from '../../../../components/Header';
+import Input from '../../../../components/Input';
+import Button from '../../../../components/Button';
 
 interface HeightInputProps {
   onContinue: (height: number) => void;
@@ -19,21 +22,15 @@ const HeightInput = ({ onContinue }: HeightInputProps) => {
 
   return (
     <div className="p-4 text-white">
-      <h2 className="text-2xl font-bold mb-4">How tall are you?</h2>
-      <input
+      <Header text="How tall are you?" />
+      <Input
         type="number"
         value={height}
         onChange={(e) => setHeight(e.target.value ? Number(e.target.value) : '')}
-        className="mt-4 p-4 border rounded-lg w-full bg-black text-grey600"
         placeholder="0"
       />
       {error && <div className="text-red-500 mt-2">{error}</div>}
-      <button
-        className="mt-6 px-4 py-4 font-semibold bg-button text-white rounded-lg w-full text-center"
-        onClick={handleContinue}
-      >
-        Continue
-      </button>
+      <Button onClick={handleContinue} />
     </div>
   );
 };
