@@ -1,12 +1,16 @@
 # GitHub Codespaces ♥️ React
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
-
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
-
 This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+
+## Zing Web Funnel
+
+<img width="397" alt="Screenshot 2024-06-17 at 03 23 37" src="https://github.com/liliiasaleck/zing-web-funnel/assets/74065687/d3362672-e8ca-4bb6-8f90-383da36b5f2b">
+<img width="395" alt="Screenshot 2024-06-17 at 03 23 54" src="https://github.com/liliiasaleck/zing-web-funnel/assets/74065687/3954c30b-7934-4daa-aa93-60a4718ea7e9">
+<img width="390" alt="Screenshot 2024-06-17 at 03 24 02" src="https://github.com/liliiasaleck/zing-web-funnel/assets/74065687/2805a95e-2bb7-45c8-95f9-6b75c43a3736">
+<img width="392" alt="Screenshot 2024-06-17 at 03 24 29" src="https://github.com/liliiasaleck/zing-web-funnel/assets/74065687/7600bd9f-c184-4998-afa4-9b5665aed373">
+<img width="391" alt="Screenshot 2024-06-17 at 03 24 46" src="https://github.com/liliiasaleck/zing-web-funnel/assets/74065687/6a29aef0-47a7-4e2f-9a84-fb077219bfe6">
+<img width="391" alt="Screenshot 2024-06-17 at 03 24 54" src="https://github.com/liliiasaleck/zing-web-funnel/assets/74065687/698874de-9065-4053-80c5-050722bc5d6b">
+
 
 ## Available Scripts
 
@@ -21,50 +25,3 @@ Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Bro
 
 The page will reload automatically when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
-
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
-
-### Advanced Configuration
-
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
-
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
